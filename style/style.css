@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: content-box;
+    /* overflow: hidden; */
+    
+}
+
+/* html{
+    overflow: hidden;
+} */
+
+header{
+    display: flex;
+    background-color: #1B1B1B;
+    /* height: 200px; */
+    box-sizing: content-box;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .logo{
+    flex: 1;
+    /* background-color: turquoise; */
+}
+
+.logo img{
+    width: 200px;
+    margin: 20px 50px;
+}
+
+.nav-bar{
+    flex: 1;
+    /* background-color: violet; */
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: blue; */
+    
+    margin: auto 50px;
+
+    
+    font-size: 20px;
+}
+
+.nav-bar ul li{
+    margin-left: 100px;
+    /* background-color: blue; */
+}
+
+.nav-bar ul li a{
+    color: white;
+    
+}
+
+
+/* Bagian Main */
+main article{
+    display: flex;
+    align-items: center;
+}
+main article .porto{
+    /* background-color: tomato; */
+    height: 500px;
+    margin-left: 40px;
+    flex: 1;
+}
+
+main article .title{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex: 1;
+
+    padding: 0px 100px 0px;
+    /* background-color: yellow; */
+}
+
+main article .title h1{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+main article .title p{
+    font-size: 15px;
+}
+/* Akhir dari main */
+
+
+
+/* Bagian Price List */
+.price-list{
+    background-color: #1B1B1B;
+    /* padding: 25px 40px; */
+}
+
+.price-list .title{
+    /* margin: 50px auto auto 50px; */
+    padding-top: 25px;
+    margin-left: 75px;
+    margin-bottom: -25px;
+    color: white;
+    font-size: 50px;
+}
+
+.price-list .pilihan{
+    display: flex;
+    align-items: center;
+    margin: auto 50px;
+}
+
+.price-list .pilihan .order{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.price-list .pilihan .order img{
+    flex: 1;
+    width: 150px;
+    margin: 20px;
+    padding: 25px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+.price-list .pilihan .order .ket{
+    flex: 2;
+}
+
+.price-list .pilihan .order .ket h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.price-list .pilihan .order .ket p{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.price-list .pilihan .order .ket button{
+    background: #1B1B1B;
+    border: unset;
+    border-radius: 5px;
+    outline: unset;
+
+    cursor: pointer;
+
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+}
+
+.price-list .pilihan .order .ket button:active{
+    box-shadow: 0px 3px 12px rgba(255, 255, 255, 0.25);
+
+}
+/* Akhir dari Price list */
+
+
+
+/* Bagian dari Aside */
+aside{
+    margin-bottom: 30px;
+}
+
+aside h1{
+    /* margin: 50px; */
+    margin-left: 75px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+aside .perkenalan{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+aside .perkenalan img{
+    width: 500px;
+}
+
+aside .perkenalan .massage{
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0px 3px 12px rgba(22, 22, 22, 0.25);
+    border-radius: 10px;
+    margin-left: -200px;
+}
+
+aside .perkenalan .massage p{
+    margin-bottom: 25px;
+}
+/* Bagian akhir dari aside */
+
+
+/* Bagian Footer */
+footer{
+    background-color: #1B1B1B;
+    width: 100%;
+    height: auto;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .contact{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    
+}
+
+footer .contact img{
+    width: 50px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+footer .contact a, footer .contact h4{
+    color: white;
+}
+/* Bagian akhir dari footer */
